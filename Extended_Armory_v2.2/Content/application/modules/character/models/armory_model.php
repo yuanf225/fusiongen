@@ -348,7 +348,7 @@ class Armory_model extends CI_Model
 				return false;
 		}
 		
-		$statements['trinity'] 		=
+		$statements['trinity'] 		= "SELECT `spell` FROM `character_talent` WHERE `guid` = ? AND `talentGroup` = ? ORDER BY `spell` DESC;";
 		$statements['trinity_cata'] =
 		$statements['trinity_mop'] = 
 		$statements['trinity_wod'] = 
@@ -418,15 +418,15 @@ class Armory_model extends CI_Model
 				return false;
 		}
 		
-		$statements['trinity'] 		  =
+		$statements['trinity'] 		  = "SELECT * FROM `character_glyphs` WHERE `guid` = ? AND `talentGroup` = ? LIMIT 1;";
 		$statements['trinity_cata']   =
 		$statements['trinity_mop']    = 
 		$statements['trinity_wod']    = 
 		$statements['trinity_legion'] = 
-		$statements['trinity_bfa']    = "SELECT * FROM `character_glyphs` WHERE `guid` = ? AND `talentgroup` = ? LIMIT 1;";
+		$statements['trinity_bfa']    = "SELECT * FROM `character_glyphs` WHERE `guid` = ? AND `talentGroup` = ? LIMIT 1;";
 		
 		$statements['arkcore'] 		=
-		$statements['azerothcore']  = "SELECT * FROM `character_glyphs` WHERE `guid` = ? AND `talentGroup` = ? LIMIT 2;";
+		$statements['azerothcore']  = "SELECT * FROM `character_glyphs` WHERE `guid` = ? AND `talentGroup` = ? LIMIT 1;";
 		$statements['skyfire'] 		= "SELECT * FROM `character_glyphs` WHERE `guid` = ? AND `spec` = ? LIMIT 1;";
 		
 		$statements['mangos'] 		=
