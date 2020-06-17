@@ -15,3 +15,16 @@ Installation:
  5. Clear your browsers cache.
 
  6. You are done.
+ 
+ For V3 RC1:
+ - You need to set this to false to use wowhead tooltip in fusion.php in your config folder.
+ 
+ /*
+|--------------------------------------------------------------------------
+| Use FusionCMS tooltip system instead of WoWHead tooltips
+|--------------------------------------------------------------------------
+|
+| Put to false if you mainly have "blizzlike" items.
+|
+*/
+$config['use_fcms_tooltip'] = false;
