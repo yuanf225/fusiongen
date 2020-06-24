@@ -5,7 +5,7 @@
  */
  
 $lang['zones'] = array(
-1   => 'Dun Morogh',
+1   => '丹·莫罗',
 2	=> 'Longshore',
 3	=> 'Badlands',
 4	=> 'Blasted Lands',

@@ -21,28 +21,28 @@ $lang['ucp'] = "UCP";
  */
 
 // Singular forms
-$lang['month'] = "month";
-$lang['day'] = "day";
-$lang['hour'] = "hour";
-$lang['minute'] = "minute";
-$lang['second'] = "second";
+$lang['month'] = "月";
+$lang['day'] = "天";
+$lang['hour'] = "小时";
+$lang['minute'] = "分";
+$lang['second'] = "秒";
 
 // Plural forms
-$lang['months'] = "months";
-$lang['days'] = "days";
-$lang['hours'] = "hours";
-$lang['minutes'] = "minutes";
-$lang['seconds'] = "seconds";
+$lang['months'] = "月份";
+$lang['days'] = "天数";
+$lang['hours'] = "小时";
+$lang['minutes'] = "分钟";
+$lang['seconds'] = "秒钟";
 
 // Permission errors
-$lang['denied'] = "Permission denied";
-$lang['must_be_signed_in'] = "You must be signed in to view this page!";
-$lang['already_signed_in'] = "You are already signed in!";
-$lang['no_permission'] = "You do not have permission to view this page.";
-$lang['click_to_sign_in'] = "Please click here to sign in.";
+$lang['denied'] = "拒绝访问";
+$lang['must_be_signed_in'] = "您必须登录才能查看此页面!";
+$lang['already_signed_in'] = "您已经登录了!";
+$lang['no_permission'] = "您没有访问此页面的权限.";
+$lang['click_to_sign_in'] = "请按此登入.";
 
 // Misc
-$lang['reason'] = "Reason:";
-$lang['banned'] = "banned";
-$lang['close_tool'] = "Close tool";
-$lang['offline'] = "Offline";
+$lang['reason'] = "理由:";
+$lang['banned'] = "禁止";
+$lang['close_tool'] = "关闭工具";
+$lang['offline'] = "离线";

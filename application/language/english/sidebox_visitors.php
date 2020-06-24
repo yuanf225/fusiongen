@@ -14,9 +14,9 @@
 
 $lang['there_are'] = "There are";
 $lang['there_is'] = "There is";
-$lang['guest'] = "guest";
-$lang['guests'] = "guests";
-$lang['visitor'] = "visitor";
-$lang['visitors'] = "visitors";
-$lang['online'] = "online";
-$lang['who'] = "who?";
+$lang['guest'] = "顾客";
+$lang['guests'] = "顾客";
+$lang['visitor'] = "访问者";
+$lang['visitors'] = "访问者";
+$lang['online'] = "在线";
+$lang['who'] = "什么人?";

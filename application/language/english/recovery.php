@@ -12,18 +12,18 @@
  *	will automatically look in that folder too.
  */
 
-$lang['username'] = "Username";
-$lang['recover'] = "Recover password!";
-$lang['new_password'] = "Your new password is";
-$lang['your_new_password'] = "your new password";
-$lang['smtp_disabled'] = "This feature is disabled because the server doesn't have SMTP installed.";
-$lang['password_recovery'] = "Password recovery";
-$lang['email_sent'] = "An email has been sent to you with further information. Please check your inbox to proceed.";
-$lang['reset_password'] = "reset your password";
-$lang['email'] = "You have requested to reset your password, to complete the request please navigate to ";
-$lang['doesnt_exist'] = "The user doesn't exist.";
-$lang['go_back'] = "Go back";
-$lang['changed'] = "Your password has been changed! The new password has been sent to your email adress.";
-$lang['invalid'] = "Invalid key.";
-$lang['no_key'] = "No key entered.";
-$lang['error_while_inserting'] = "Error while inserting the key.";
+$lang['username'] = "用户名";
+$lang['recover'] = "重设密码!";
+$lang['new_password'] = "您的新密码是";
+$lang['your_new_password'] = "您新密码";
+$lang['smtp_disabled'] = "禁用此功能是因为服务器没有安装SMTP.";
+$lang['password_recovery'] = "密码恢复";
+$lang['email_sent'] = "已经给您发了一封电子邮件，提供了进一步的信息。请检查您的收件箱继续.";
+$lang['reset_password'] = "重置您的密码";
+$lang['email'] = "您已要求重置您的密码，要完成该请求请导航到 ";
+$lang['doesnt_exist'] = "用户不存在.";
+$lang['go_back'] = "返回";
+$lang['changed'] = "您的密码已被更改!新密码已发送到您的电子邮件地址.";
+$lang['invalid'] = "无效key.";
+$lang['no_key'] = "没有登记key.";
+$lang['error_while_inserting'] = "插入key时错误.";

@@ -12,10 +12,10 @@
  *	will automatically look in that folder too.
  */
 
-$lang['ago'] = "ago";
-$lang['view_profile'] = "View profile";
-$lang['said'] = "said";
-$lang['message_limit'] = "The message must be between 0-255 characters long!";
-$lang['enter'] = "Enter a message...";
-$lang['submit'] = "Submit message";
-$lang['log_in'] = "Please sign in to submit";
+$lang['ago'] = "以前的";
+$lang['view_profile'] = "视图模板";
+$lang['said'] = "上述的";
+$lang['message_limit'] = "消息长度必须在0-255个字符之间!";
+$lang['enter'] = "输入一个消息...";
+$lang['submit'] = "提交留言";
+$lang['log_in'] = "请登录提交";

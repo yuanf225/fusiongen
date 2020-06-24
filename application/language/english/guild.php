@@ -12,10 +12,10 @@
  *	will automatically look in that folder too.
  */
 
-$lang['invalid'] = "No guild or realm specified!";
-$lang['invalid_guild'] = "Invalid guild";
-$lang['armory'] = "Armory";
-$lang['no_motd'] = "This guild has no message of the day.";
-$lang['members'] = "members";
-$lang['leader'] = "Leader";
-$lang['doesnt_exist'] = "The requested guild does not exist";
+$lang['invalid'] = "没有指定公会或服务器!";
+$lang['invalid_guild'] = "无效的公会";
+$lang['armory'] = "军械库";
+$lang['no_motd'] = "这个公会今天没有讯息.";
+$lang['members'] = "成员";
+$lang['leader'] = "官员";
+$lang['doesnt_exist'] = "请求的公会不存在";

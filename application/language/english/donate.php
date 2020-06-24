@@ -12,15 +12,15 @@
  *	will automatically look in that folder too.
  */
 
-$lang['donate_title'] = "Donate";
-$lang['donate_panel'] = "Donate panel";
-$lang['donate_thanks'] = "Thanks for your donation!";
-$lang['donate_success'] = "Thanks for supporting our server! If you don't receive your points with in 5 minutes, please contact a game master.";
+$lang['donate_title'] = "捐赠";
+$lang['donate_panel'] = "捐赠面板";
+$lang['donate_thanks'] = "谢谢您的捐赠!";
+$lang['donate_success'] = "感谢您对我们服务器的支持! 如果你在5分钟内没有收到你的捐赠点数, 请联系GM.";
 $lang['paypal'] = "PayPal";
 $lang['paygol'] = "PayGol (SMS)";
-$lang['donation_for'] = "Donation for";
-$lang['dp'] = "Donation points";
+$lang['donation_for'] = "捐赠的";
+$lang['dp'] = "捐赠点数";
 $lang['for'] = "for"; // as in "X Donation points >for< $Y"
-$lang['pay_paypal'] = "Pay with PayPal";
-$lang['pay_paygol'] = "Pay with SMS";
-$lang['no_methods'] = "Please configure at least one payment method.";
+$lang['pay_paypal'] = "使用PayPal支付";
+$lang['pay_paygol'] = "使用SMS支付";
+$lang['no_methods'] = "请选择一种付款方式.";

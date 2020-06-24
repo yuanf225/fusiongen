@@ -12,11 +12,11 @@
  *	will automatically look in that folder too.
  */
 
-$lang['type_comment'] = "Type a comment...";
-$lang['characters'] = "characters";
-$lang['submit'] = "Submit comment";
-$lang['log_in'] = "Please log in to comment";
-$lang['view_profile'] = "View profile";
-$lang['comments'] = "Comments";
-$lang['posted_by'] = "Posted by";
-$lang['on'] = "on"; /* Posted by Jesper >on< 2013/01/29 */
+$lang['type_comment'] = "类型的评论……";
+$lang['characters'] = "角色";
+$lang['submit'] = "留言";
+$lang['log_in'] = "请登录评论";
+$lang['view_profile'] = "视图模板";
+$lang['comments'] = "最新评论";
+$lang['posted_by'] = "发布者";
+$lang['on'] = "打开"; /* Posted by Jesper >on< 2013/01/29 */

@@ -12,12 +12,12 @@
  *	will automatically look in that folder too.
  */
 
-$lang['doesnt_exist'] = "User doesn't exist";
-$lang['doesnt_exist_long'] = "The requested user does not exist.";
-$lang['nickname'] = "Nickname";
-$lang['location'] = "Location";
-$lang['status'] = "Status";
-$lang['signed_up'] = "Signed up";
-$lang['rank'] = "Rank";
-$lang['contact'] = "Contact";
-$lang['pm'] = "Private message";
+$lang['doesnt_exist'] = "用户不存在";
+$lang['doesnt_exist_long'] = "请求的用户不存在.";
+$lang['nickname'] = "昵称";
+$lang['location'] = "位置";
+$lang['status'] = "身份";
+$lang['signed_up'] = "签约";
+$lang['rank'] = "军衔";
+$lang['contact'] = "联系方式";
+$lang['pm'] = "私人信息";
