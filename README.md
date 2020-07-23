@@ -1,4 +1,11 @@
-Installation
+Compatibility:
+
+Extended_Armory_v2 till Extended_Armory_v2.2 - WOTLK,CATA and MOP(limited support)
+
+Extended_Armory_v3_RC1 - MOP,WOD,LEGION,BFA
+
+
+Installation:
 
 **** FROM Extended_Armory_v2 till Extended_Armory_v2.2! ****
 
@@ -31,14 +38,12 @@ Installation
  4. You must disable the FusionGen tooltip in order to the WoWHead tooltip to work properly.
 
 	You can find it in the config/fusion.php
-	 /*
-	|--------------------------------------------------------------------------
-	| Use FusionCMS tooltip system instead of WoWHead tooltips
-	|--------------------------------------------------------------------------
-	|
-	| Put to false if you mainly have "blizzlike" items.
-	|
-	*/
+	--------------------------------------------------------------------------
+	 Use FusionCMS tooltip system instead of WoWHead tooltips
+	--------------------------------------------------------------------------
+	
+	 Put to false if you mainly have "blizzlike" items.
+
 	$config['use_fcms_tooltip'] = false;
 
  5. Clear your template cache.
