@@ -183,7 +183,7 @@ class Character extends MX_Controller
 	{
 		switch ($this->getEmulatorString())
 		{
-			case 'trinity_mop'
+			case 'trinity_mop':
 			case 'trinity_wod':
 			case 'trinity_legion':
 			case 'trinity_bfa':
