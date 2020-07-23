@@ -50,7 +50,9 @@ class Item extends MX_Controller
             $xml = simplexml_load_string(file_get_contents("https://wowhead.com/?item=".$id."&xml"));
             $itemHtmlTooltip = $xml->item->htmlTooltip;
             $item = $this->template->loadPage("ajax.tpl", array('module' => 'item', 'id' => $id, 'realm' => $realm, 'icon' => $icon, 'tooltip' => $itemHtmlTooltip));
+			$this->cache->save("items/tooltip_".$realm."_".$id."_".getLang(), $item);
         }
+		
 
 		$content = $this->template->loadPage("item.tpl", array('module' => 'item', 'item' => $item, 'icon' => $icon));
 
