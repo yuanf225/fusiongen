@@ -68,6 +68,18 @@ class World_model
 			{
 				die($this->db->_error_message());
 			}
+			else 
+			{
+				//If its not available try to load from wowhead and cache it for 24 hours
+				
+				$xml = simplexml_load_string(file_get_contents("https://wowhead.com/?item=".$id."&xml"));
+				$DisplayId = $xml->item->icon["displayId"];
+				$iconId = str_replace("[0]","",$DisplayId);
+				
+				$this->CI->cache->save("items/item_".$this->realmId."_".$id, $iconId, 60*60*24);
+
+				return false;	
+			}
 
 			if($query->num_rows() > 0)
 			{
